@@ -1,7 +1,4 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
-import Page from '../components/Page';
-import ReactPlayer from 'react-player';
-// import { styled } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
 
 export default function One() {
@@ -26,7 +23,7 @@ export default function One() {
             {/* <img alt="prop" src="static/image/Group 121.png"></img> */}
             <hr style={{ borderColor: "#21bf73" }}></hr>
             <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-              <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#21bf73" }}>תנאי מימון 20/80 + פטור מהמדד לשנה + פטור משכ”ט עו”ד</Typography>
+              <Typography style={{ fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#21bf73" }}>תנאי מימון 20/80 + פטור מהמדד לשנה + פטור משכ”ט עו”ד</Typography>
             </Grid>
             <hr style={{ borderColor: "#21bf73" }}></hr>
           </Grid>
@@ -43,7 +40,7 @@ export default function One() {
             <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl" }}>דירת גן 3 חד' החל מ-</Typography>
           </Grid>
           <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-            <Typography style={{ color: "#c8c8c8", fontSize: "40px", fontWeight: "bolder", width: "80%", paddingTop: "0px", textAlign: "center", color: "#21bf73", direction: "rtl" }}>₪5,965,000</Typography>
+            <Typography style={{ fontSize: "40px", fontWeight: "bolder", width: "80%", paddingTop: "0px", textAlign: "center", color: "#21bf73", direction: "rtl" }}>₪5,965,000</Typography>
           </Grid>
           <Grid justifyContent="center" style={{ padding: "0% 10%" }} item xs={12}>
             <Typography style={{ textAlign: "right", color: "white" }}>רוצה לשמוע עוד?מלא פרטים ונחזור אלייך בהקדם</Typography>
@@ -82,7 +79,7 @@ export default function One() {
                 <img alt="prop" src="static/image/three-3.png"></img>
               </Stack>
             </Stack>
-            <Typography style={{ justifyContent: "center", marginTop: "5%", paddingBottom: "1%", display: "flex", color: "white"}}>!ההטבות לחוזים שיחתמו עד ה- 31.12.21 בלבד</Typography>
+            <Typography style={{ justifyContent: "center", marginTop: "5%", paddingBottom: "1%", display: "flex", color: "white" }}>!ההטבות לחוזים שיחתמו עד ה- 31.12.21 בלבד</Typography>
           </Grid>
         </Grid>
         <Grid item xs={6} style={{ display: "flex", justifyContent: "right", backgroundSize: "cover" }} className="background3">

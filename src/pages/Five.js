@@ -1,5 +1,4 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
-import Page from '../components/Page';
 import ReactPlayer from 'react-player';
 // import { styled } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
@@ -29,7 +28,7 @@ export default function One() {
             {/* <img alt="prop" src="static/image/Group 121.png"></img> */}
             <hr style={{ borderColor: "#dc7c8d" }}></hr>
             <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-              <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#dc7c8d" }}>תנאי מימון 20/80 + פטור משכ”ט עו”ד + פטור לשנה מהמדד + הטבה בשינויי דיירים!</Typography>
+              <Typography style={{ fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#dc7c8d" }}>תנאי מימון 20/80 + פטור משכ”ט עו”ד + פטור לשנה מהמדד + הטבה בשינויי דיירים!</Typography>
             </Grid>
             <hr style={{ borderColor: "#dc7c8d" }}></hr>
           </Grid>
@@ -47,7 +46,7 @@ export default function One() {
             <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl" }}>147 מ"ר בעיצוב אישי</Typography>
           </Grid>
           <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-            <Typography style={{ color: "#c8c8c8", fontSize: "40px", fontWeight: "bolder", width: "80%", paddingTop: "0px", textAlign: "center", color: "#dc7c8d", direction: "rtl" }}>₪4,680,000</Typography>
+            <Typography style={{ fontSize: "40px", fontWeight: "bolder", width: "80%", paddingTop: "0px", textAlign: "center", color: "#dc7c8d", direction: "rtl" }}>₪4,680,000</Typography>
           </Grid>
           <Grid justifyContent="center" style={{ padding: "0% 10%" }} item xs={12}>
             <Typography style={{ textAlign: "right", color: "white" }}>רוצה לשמוע עוד?מלא פרטים ונחזור אלייך בהקדם</Typography>
@@ -70,7 +69,7 @@ export default function One() {
                   <input htmlFor="html" type="checkbox" id="html" />
                 </div>
               </Stack>
-              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ alignItems: "center" }} style={{ width: "50%", display: "display", direction: "rtl" }} spacing={2}>
+              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", display: "display", direction: "rtl", alignItems: "center" }} spacing={2}>
                 {/* <img alt="prop" src="static/image/root.png"></img> */}
                 <div className="input_div" style={{ width: "100%" }}>
                   <label className="input_label" ><span>{`<`}</span>פרויקט</label>

@@ -1,7 +1,5 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
-import Page from '../components/Page';
 import ReactPlayer from 'react-player';
-// import { styled } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
 
 export default function One() {
@@ -28,7 +26,7 @@ export default function One() {
             {/* <img alt="prop" src="static/image/Group 121.png"></img> */}
             <hr style={{ borderColor: "#eb008b" }}></hr>
             <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-              <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#eb008b" }}>תנאי מימון 20/80 + פטור משכ”ט עו”ד + פטור לשנה מהמדד + הטבה בשינויי דיירים!</Typography>
+              <Typography style={{ fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#eb008b" }}>תנאי מימון 20/80 + פטור משכ”ט עו”ד + פטור לשנה מהמדד + הטבה בשינויי דיירים!</Typography>
             </Grid>
             <hr style={{ borderColor: "#eb008b" }}></hr>
           </Grid>
@@ -45,7 +43,7 @@ export default function One() {
             <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl" }}>4-5 חד׳ החל מ-</Typography>
           </Grid>
           <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-            <Typography style={{ color: "#c8c8c8", fontSize: "40px", fontWeight: "bolder", width: "80%", paddingTop: "0px", textAlign: "center", color: "#eb008b", direction: "rtl" }}>₪2,770,000</Typography>
+            <Typography style={{ fontSize: "40px", fontWeight: "bolder", width: "80%", paddingTop: "0px", textAlign: "center", color: "#eb008b", direction: "rtl" }}>₪2,770,000</Typography>
           </Grid>
           <Grid justifyContent="center" style={{ padding: "0% 10%" }} item xs={12}>
             <Typography style={{ textAlign: "right", color: "white" }}>רוצה לשמוע עוד?מלא פרטים ונחזור אלייך בהקדם</Typography>

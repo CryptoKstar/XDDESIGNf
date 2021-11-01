@@ -1,7 +1,5 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
-import Page from '../components/Page';
 import ReactPlayer from 'react-player';
-// import { styled } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
 
 export default function One() {
@@ -13,7 +11,6 @@ export default function One() {
 
   return (
     <Box sx={{ flexGrow: 1, width: "100%", minHeight: "auto" }}>
-      {/* <video autoPlay style={{ position: "fixed", zIndex: "-10" }}><source src="/static/video/4.mp4" type="video/mp4" /></video> */}
       <ReactPlayer style={{ position: "fixed", zIndex: "-10", left: "49%", overflow: "hidden" }} url="/static/video/4.mp4" playing loop muted width="51%" height="100%" />
       <Grid container spacing={2} style={{ height: "100%" }}>
         <Grid item xs={6} style={{ backgroundColor: "#232323" }}>
@@ -28,7 +25,7 @@ export default function One() {
             {/* <img alt="prop" src="static/image/Group 121.png"></img> */}
             <hr style={{ borderColor: "#fc5e00" }}></hr>
             <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-              <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#fc5e00" }}>תנאי מימון 80/20 + פטור מהמדד לשנה + פטור משכ"ט עו"ד + הטבה בשינויי דיירים!</Typography>
+              <Typography style={{ fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#fc5e00" }}>תנאי מימון 80/20 + פטור מהמדד לשנה + פטור משכ"ט עו"ד + הטבה בשינויי דיירים!</Typography>
             </Grid>
             <hr style={{ borderColor: "#fc5e00" }}></hr>
           </Grid>
@@ -46,7 +43,7 @@ export default function One() {
             <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl" }}>4-5 חד' החל מ-</Typography>
           </Grid>
           <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-            <Typography style={{ color: "#c8c8c8", fontSize: "40px", fontWeight: "bolder", width: "80%", paddingTop: "0px", textAlign: "center", color: "#fc5e00", direction: "rtl" }}>₪1,580,000</Typography>
+            <Typography style={{ fontSize: "40px", fontWeight: "bolder", width: "80%", paddingTop: "0px", textAlign: "center", color: "#fc5e00", direction: "rtl" }}>₪1,580,000</Typography>
           </Grid>
           <Grid justifyContent="center" style={{ padding: "0% 10%" }} item xs={12}>
             <Typography style={{ textAlign: "right", color: "white" }}>רוצה לשמוע עוד?מלא פרטים ונחזור אלייך בהקדם</Typography>
