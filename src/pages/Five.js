@@ -29,7 +29,7 @@ export default function One() {
             {/* <img alt="prop" src="static/image/Group 121.png"></img> */}
             <hr style={{ borderColor: "#dc7c8d" }}></hr>
             <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-              <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", display: "contents", fontWeight: "bolder", color: "#dc7c8d" }}>תנאי מימון 20/80 + פטור משכ”ט עו”ד + פטור לשנה מהמדד + הטבה בשינויי דיירים!</Typography>
+              <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#dc7c8d" }}>תנאי מימון 20/80 + פטור משכ”ט עו”ד + פטור לשנה מהמדד + הטבה בשינויי דיירים!</Typography>
             </Grid>
             <hr style={{ borderColor: "#dc7c8d" }}></hr>
           </Grid>
@@ -70,7 +70,7 @@ export default function One() {
                   <input htmlFor="html" type="checkbox" id="html" />
                 </div>
               </Stack>
-              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", display: "display", direction: "rtl" }} spacing={2}>
+              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ alignItems: "center" }} style={{ width: "50%", display: "display", direction: "rtl" }} spacing={2}>
                 {/* <img alt="prop" src="static/image/root.png"></img> */}
                 <div className="input_div" style={{ width: "100%" }}>
                   <label className="input_label" ><span>{`<`}</span>פרויקט</label>
@@ -79,8 +79,8 @@ export default function One() {
               </Stack>
             </Stack>
             <Stack direction={{ xs: 'column', sm: 'row' }} paddingTop={8} spacing={2}>
-              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", display: "display", direction: "ltr" }} spacing={2}>
-                <img alt="prop" src="static/image/root.png"></img>
+              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", height: "100%", direction: "ltr" }} spacing={2}>
+                <img style={{ height: "100%" }} alt="prop" src="static/image/root.png"></img>
               </Stack>
               <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", display: "display", direction: "rtl" }} spacing={2}>
                 <img alt="prop" src="static/image/five-1.png"></img>

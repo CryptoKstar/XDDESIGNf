@@ -78,9 +78,9 @@ export default function One() {
                 </div>
               </Stack>
             </Stack>
-            <Stack direction={{ xs: 'column', sm: 'row' }} paddingTop={8} spacing={2}>
-              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", display: "display", direction: "ltr" }} spacing={2}>
-                <img alt="prop" src="static/image/root.png"></img>
+            <Stack direction={{ xs: 'column', sm: 'row' }} style={{ alignItems: "center" }} paddingTop={8} spacing={2}>
+              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", height: "100%", direction: "ltr" }} spacing={2}>
+                <img style={{ height: "100%" }} alt="prop" src="static/image/root.png"></img>
               </Stack>
               <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", display: "display", direction: "rtl" }} spacing={2}>
                 <img alt="prop" src="static/image/two-2.png"></img>

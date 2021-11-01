@@ -28,7 +28,7 @@ export default function One() {
             {/* <img alt="prop" src="static/image/Group 121.png"></img> */}
             <hr style={{ borderColor: "#fc5e00" }}></hr>
             <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-              <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", display: "contents", fontWeight: "bolder", color: "#fc5e00" }}>תנאי מימון 80/20 + פטור מהמדד לשנה + פטור משכ"ט עו"ד + הטבה בשינויי דיירים!</Typography>
+              <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#fc5e00" }}>תנאי מימון 80/20 + פטור מהמדד לשנה + פטור משכ"ט עו"ד + הטבה בשינויי דיירים!</Typography>
             </Grid>
             <hr style={{ borderColor: "#fc5e00" }}></hr>
           </Grid>
@@ -77,9 +77,9 @@ export default function One() {
                 </div>
               </Stack>
             </Stack>
-            <Stack direction={{ xs: 'column', sm: 'row' }} paddingTop={8} spacing={2}>
-              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", display: "display", direction: "ltr" }} spacing={2}>
-                <img alt="prop" src="static/image/root.png"></img>
+            <Stack direction={{ xs: 'column', sm: 'row' }} style={{ alignItems: "center" }} paddingTop={8} spacing={2}>
+              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", height: "100%", direction: "ltr" }} spacing={2}>
+                <img style={{ height: "100%" }} alt="prop" src="static/image/root.png"></img>
               </Stack>
               <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", display: "display", direction: "rtl" }} spacing={2}>
                 <img alt="prop" src="static/image/seven-2.png"></img>

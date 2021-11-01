@@ -15,9 +15,9 @@ export default function One() {
     <Box sx={{ flexGrow: 1, width: "100%", minHeight: "auto", backgroundColor: "#232323" }}>
       <Grid container spacing={2} style={{ height: "100%" }}>
         <Grid item xs={6} style={{ backgroundColor: "#232323" }}>
-          <button style={{ width: "100px", height: "100px", backgroundColor: "#ff1650", border: "none", color: "white", fontSize: "25px" }} onClick={(e) => main()}>
-            <label>הבית חזור</label>
+          <button style={{ width: "100px", height: "100px", backgroundColor: "#ff1650", border: "none", color: "white", fontSize: "25px", direction: "rtl" }} onClick={(e) => main()}>
             <label>לדף</label>
+            <label>הבית חזור</label>
           </button>
           <Grid justifyContent="center" style={{ display: "grid" }} item xs={12}>
             <img alt="prop" src="static/image/Group 122.png" ></img>
@@ -73,11 +73,11 @@ export default function One() {
                 </div>
               </Stack>
             </Stack>
-            <Stack direction={{ xs: 'column', sm: 'row' }} paddingTop={8} spacing={2}>
-              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", display: "display", direction: "ltr" }} spacing={2}>
-                <img alt="prop" src="static/image/root.png"></img>
+            <Stack direction={{ xs: 'column', sm: 'row' }} style={{ alignItems: "center" }} paddingTop={8} spacing={2}>
+              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", height: "100%", direction: "ltr" }} spacing={2}>
+                <img style={{ height: "100%" }} alt="prop" src="static/image/root.png"></img>
               </Stack>
-              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", display: "display", direction: "rtl" }} spacing={2}>
+              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", direction: "rtl" }} spacing={2}>
                 <img alt="prop" src="static/image/one_root.png"></img>
               </Stack>
             </Stack>
