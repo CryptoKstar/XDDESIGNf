@@ -69,7 +69,7 @@ export default function One() {
                   <input htmlFor="html" type="checkbox" id="html" />
                 </div>
               </Stack>
-              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", display: "display", direction: "rtl", alignItems: "center" }} spacing={2}>
+              <Stack direction={{ xs: 'column', sm: 'row' }} style={{ width: "50%", display: "display", direction: "rtl" }} spacing={2}>
                 {/* <img alt="prop" src="static/image/root.png"></img> */}
                 <div className="input_div" style={{ width: "100%" }}>
                   <label className="input_label" ><span>{`<`}</span>פרויקט</label>
