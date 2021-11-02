@@ -6,21 +6,35 @@
   font-family : "COLBO!important"
 }
 .input_style {
-    width: 100%;
-    height: 40px;
-    border-top-right-radius: 15px;
-    text-align: right;
-    border: none;
-    padding-right: 20%;
-    font-family : "COLBO"
+  width: 100%;
+  height: 2.3vw;
+  border-top-right-radius: 1vw;
+  text-align: right;
+  border: none;
+  padding-right: 3.5vw;
+  font-family: "COLBO";
   }
-.input_label {
+  .input_label_1 {
     position: relative;
     color: red;
     float: right;
-    right: 5%;
-    top:50%;
-    font-family : "COLBO"
+    right: 0.9vw;
+    top: 1.8vw;
+    font-family: "COLBO";
+    font-size: 0.8vw;
+    }
+.input_label {
+  position: relative;
+  color: red;
+  float: right;
+  right: 0.9vw;
+  top: 50%;
+  font-family: "COLBO";
+  font-size: 0.8vw;
+  }
+  .grid_input_1{
+    margin-top: -1vw;
+
   }
 p{
   font-family : "COLBO"
@@ -81,20 +95,23 @@ video{
 }
 
 .buttonhoverd{
-  margin-right: -85px;
+  margin-right: -4.5vw;
   transition:0.5s;
 }
 
 .hoveredParent{
     overflow: hidden;
     position : relative;
-    border-top-left-radius : 15px; 
+    height: 5vw;
+    width: 9vw;
+    border-top-left-radius : 0.7vw;
+    font-size: 0.7vw;
 }
 .hoveredParent1{
   overflow: hidden;
   position : relative;
   width: 165px;
-  border-top-left-radius : 15px; 
+  border-top-left-radius : 0.8vw; 
 }
 .input_div{
     width: 50%;
@@ -169,12 +186,13 @@ video{
   }
 
   .main_button {
-    width: 100px;
-    height: 100px;
+    width: 6vw;
+    height: 6vw;
     background-color: #ff1650;
     border: none;
     color: white;
-    font-size: 25px;
+    font-size: 1.2vw;
+    font-weight: bold;
   }
   .video_player {
     object-fit: cover;
@@ -199,10 +217,105 @@ video{
 
   .main_click{
     position: relative;
+    width: 25vw;
   }
+
+  .main_click_1{
+    position: relative;
+    width: 38vw;
+  }
+
   .mclock{
     top: -4px;
     left: 8px;
     position: absolute;
-    height: 100%;
+    height: 5vw;
+  }
+
+  .grid_title{
+    justify-content: center;
+    display: grid;
+  }
+  .grid_header{
+    justify-content: center;
+    padding: 0 10vw;
+  }
+  .grid_header_1{
+    justify-content: center;
+    display: flex;
+  }
+  .grid_header1{
+    font-size: 1.2vw;
+    width: 80%;
+    padding: 1% 10%;
+    text-align: center;
+    direction: rtl;
+    font-weight: bold;
+    color: #fcb038;
+  }
+  .grid_title_1{
+    color: white;
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    height: 3.5vw;
+    top: -1.1vw;
+    position: relative;
+  }
+  .text_header {
+    color: white;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    direction: rtl;
+  }
+  .text_body{
+    color: rgb(200, 200, 200);
+    font-size: 1.2vw;
+    width: 97%;
+    padding: 1% 10%;
+    text-align: center;
+    direction: rtl;
+  }
+  .bottom_text_1{
+    color: rgb(200, 200, 200);
+    font-size: 1.2vw;
+    text-align: center;
+    direction: rtl;
+    padding-top: 2vw;
+  }
+  .bottom_text_2{
+    font-size: 3vw;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(252, 176, 56);
+    direction: rtl;
+    margin-top: -1vw;
+  }
+  .bottom_text_3{
+    text-align: right;
+    color: rgb(200, 200, 200);
+    font-size: 0.8vw;
+    direction: rtl;
+  }
+  .bottom_text_4{
+    text-align: center;
+    color: rgb(200, 200, 200);
+    font-size: 0.8vw;
+    direction: rtl;
+  }
+  .button_1{
+    width: 100px;
+    background-color: rgb(255, 22, 80);
+    border: none;
+    color: white;
+    border-top-right-radius: 1vw;
+    font-size: 1.2vw;
+    height: 3vw;
+  }
+  .button_2{
+    float: right;
+    position: relative;
+    align-items: inherit;
+    display: flex;
+    align-items: center;
   }

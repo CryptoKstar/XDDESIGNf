@@ -26,10 +26,10 @@ export default function DashBoardMenu({ flag }) {
                   <div style={{ backgroundColor: item.backgroundcolor, fontWeight: "bolder" }} className="hovered">
                     <label>להטבות</label><br />
                     <label >בנתניה{`>>`}</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
+                    <label>לצאת מהעיר, ולהישאר בה</label>
                   </div>
                 </div>
-                <img alt="prop" src={item.src}></img>
+                <img alt="prop" style={{ height: "5vw" }} src={item.src}></img>
               </div>
             </div>
           )

@@ -16,13 +16,13 @@ export default function MenuBar({ flag }) {
           if (flag === key) {
             return (
               <div key={key}>
-                <div style={{ display: "inline-flex", float: "right", color: "white" }}>
+                <div style={{ display: "inline-flex", float: "right", width: "13vw", color: "white" }}>
                   <div className="hoveredParent1">
                     <a href="/one">
-                      <div className="hovered" style={{ backgroundColor: item.backgroundcolor, color: "white", fontWeight: "bolder" }} >
+                      <div className="hovered" style={{ backgroundColor: item.backgroundcolor, fontSize: "0.7vw", color: "white", fontWeight: "bolder" }} >
                         <label>להטבות</label><br />
                         <label >בנתניה{`>>`}</label><br />
-                        <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
+                        <label >לצאת מהעיר, ולהישאר בה</label>
                       </div>
                     </a>
                   </div>
@@ -34,13 +34,13 @@ export default function MenuBar({ flag }) {
           else {
             return (
               <div key={key}>
-                <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
+                <div className="buttonhoverd" style={{ display: "inline-flex", width: "13vw", float: "right", color: "white" }}>
                   <div className="hoveredParent1">
                     <a href={item.href}>
-                      <div className="hovered" style={{ backgroundColor: item.backgroundcolor, color: "white", fontWeight: "bolder", direction: "rtl" }} >
+                      <div className="hovered" style={{ backgroundColor: item.backgroundcolor, fontSize: "0.7vw", color: "white", fontWeight: "bolder", direction: "rtl" }} >
                         <label>להטבות</label><br />
                         <label >בנתניה{`>>`}</label><br />
-                        <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
+                        <label>לצאת מהעיר, ולהישאר בה</label>
                       </div>
                     </a>
                   </div>
