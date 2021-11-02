@@ -86,7 +86,7 @@ export default function One() {
           </Grid>
         </Grid>
         <Grid item xs={6} style={{ display: "flex", justifyContent: "right", backgroundSize: "cover" }}>
-          <Stack paddingTop={2} spacing={2} style={{ justifyContent: "center" }}>
+          <Stack paddingTop={2} spacing={2} style={{ justifyContent: "center", position: "fixed", height: "100%" }}>
             <MenuBar flag={4} />
           </Stack>
         </Grid>
