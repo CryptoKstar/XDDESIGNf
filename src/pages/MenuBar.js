@@ -1,6 +1,6 @@
 
 const buttons = [
-  { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/one", src: "static/image/button1_1.png", backgroundcolor: "#3ab6c9" },
+  { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/one", src: "static/image/button1_1.png", backgroundcolor: "#036473" },
   { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/two", src: "static/image/button2_2.png", backgroundcolor: "#d1313d" },
   { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/three", src: "static/image/button3_3.png", backgroundcolor: "#21bf73" },
   { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/four", src: "static/image/button4_4.png", backgroundcolor: "#cb0671" },
@@ -19,11 +19,10 @@ export default function MenuBar({ flag }) {
                 <div style={{ display: "inline-flex", float: "right", color: "white" }}>
                   <div className="hoveredParent1">
                     <a href="/one">
-                      <div className="hovered" style={{ backgroundColor: item.backgroundcolor, color: "white" }} >
+                      <div className="hovered" style={{ backgroundColor: item.backgroundcolor, color: "white", fontWeight: "bolder" }} >
                         <label>להטבות</label><br />
-                        <label>{`<<`}</label>
-                        <label >בנתניה</label><br />
-                        <label style={{ fontSize: "13px" }}>לצאת מהעיר, ול  הישאר בה</label>
+                        <label >בנתניה{`>>`}</label><br />
+                        <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
                       </div>
                     </a>
                   </div>
@@ -38,10 +37,9 @@ export default function MenuBar({ flag }) {
                 <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
                   <div className="hoveredParent1">
                     <a href={item.href}>
-                      <div className="hovered" style={{ backgroundColor: item.backgroundcolor, color: "white" }} >
+                      <div className="hovered" style={{ backgroundColor: item.backgroundcolor, color: "white", fontWeight: "bolder", direction: "rtl" }} >
                         <label>להטבות</label><br />
-                        <label>{`<<`}</label>
-                        <label >בנתניה</label><br />
+                        <label >בנתניה{`>>`}</label><br />
                         <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
                       </div>
                     </a>

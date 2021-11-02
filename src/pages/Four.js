@@ -21,7 +21,10 @@ export default function One() {
             <label>לדף</label>
           </button>
           <Grid justifyContent="center" style={{ display: "grid" }} item xs={12}>
-            <img alt="prop" src="static/image/four-1.png" ></img>
+            <div className="main_click">
+              <img alt="prop" src="static/image/two.png" ></img>
+              <img alt="prop" className="mclock" src="static/image/clock.gif" ></img>
+            </div>
           </Grid><br />
           <Grid justifyContent="center" style={{ padding: "0% 10%" }} item xs={12}>
             {/* <img alt="prop" src="static/image/Group 121.png"></img> */}

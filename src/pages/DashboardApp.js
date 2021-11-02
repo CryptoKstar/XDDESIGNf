@@ -4,8 +4,8 @@ import DashMenu from './DashBoardMenu'
 export default function DashboardApp() {
   return (
     <Grid container>
-      <ReactPlayer style={{ position: "relative" }} url="/static/video/2.mp4" playing loop muted width="100%" height="100%" />
-      <Grid item style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
+      <ReactPlayer className="main_player" url="/static/video/2.mp4" playing loop muted width="100%" height="100%" />
+      <Grid item className="main_grid">
         <Grid item style={{ boxShadow: "0px 0px 145px 86px black" }}></Grid>
         <Box height="10%" display="flex" flexDirection="column" alignItems="center" color="#fff" style={{ top: "7px", position: "relative" }}  >
           <Typography style={{ fontSize: "29px", width: "100%", justifyContent: "center", display: "flex" }}>
@@ -14,10 +14,15 @@ export default function DashboardApp() {
           </Typography>
         </Box>
         <Box marginTop="27%" display="flex" flexDirection="column" alignItems="center" color="#fff" style={{ backgroundColor: '#232323', boxShadow: "0px -31px 126px 84px rgb(35 35 35)", height: "auto" }}>
-          <Grid container>
+          <Grid container style={{ width: "73vw" }}>
             <Grid item xs={7} style={{ display: "grid", justifyContent: "right", marginTop: "-2%", paddingRight: "6%", fontFamily: "COLBO" }}>
-              <img alt="prop" src="static/image/title1.png"></img>
-              <img alt="prop" src="static/image/body1.png"></img>
+              <div className = "main_click">
+                <img alt="prop" src="static/image/title1.png"></img>
+                <img className = "mclock" alt="prop" src="static/image/clock.gif"></img>
+              </div>
+              {/* <p style={{ direction: "rtl", fontSize: "3.4vw" }}>רוטשן</p> */}
+              <p style={{ direction: "rtl", fontSize: "3.4vw", height: "3.4vw" }}>הטבות סופשנה<span style={{ fontSize: "3.4vw", fontFamily: "COLBO", color: "#ff1650" }}>חוזרות ביג טיים!</span> </p>
+              <p style={{ direction: "rtl", fontSize: "1.5vw" }}>רוטשטיין עם הטבות גדולות מתמיד בכל הפרויקטים שלנו ברחבי הארץ</p>
               <br />
               <br />
               <Typography style={{ textAlign: "right", fontFamily: "COLBO" }}>רוצה לשמוע עוד?מלא פרטים ונחזור אלייך בהקדם</Typography>
@@ -53,13 +58,13 @@ export default function DashboardApp() {
                   <img alt="prop" src="static/image/root.png"></img>
                 </Stack>
               </Stack>
-              <Typography style={{ justifyContent: "center", marginTop: "5%", paddingBottom: "1%", display: "inline-flex" }}>!<p>ההטבות לחוזים שיחתמו עד ה- 31.12.21 בלבד</p></Typography>
+              <p style={{ justifyContent: "center", marginTop: "5%", paddingBottom: "1%", display: "inline-flex", direction: "rtl" }}>ההטבות לחוזים שיחתמו עד ה- 31.12.21 בלבד!</p>
             </Grid>
             <Grid item xs={5} style={{ display: "flex" }} >
-              <Stack style={{ width: "40%" }} paddingTop={2} spacing={2}>
+              <Stack style={{ width: "50%" }} paddingTop={2} spacing={2}>
                 <DashMenu flag={0} />
               </Stack>
-              <Stack style={{ width: "60%", float: "left", display: "flex", marginTop: "-5%" }} spacing={2}>
+              <Stack style={{ width: "50%", float: "left", display: "flex", marginTop: "-5%" }} spacing={2}>
                 <DashMenu flag={1} />
               </Stack>
             </Grid>

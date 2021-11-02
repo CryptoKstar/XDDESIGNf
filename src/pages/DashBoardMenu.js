@@ -1,5 +1,5 @@
 const buttons1 = [
-  { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/one", src: "static/image/button1_1.png", button: "static/image/1.png", backgroundcolor: "#3ab6c9" },
+  { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/one", src: "static/image/button1_1.png", button: "static/image/1.png", backgroundcolor: "#036473" },
   { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/two", src: "static/image/button2_2.png", button: "static/image/2.png", backgroundcolor: "#d1313d" },
   { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/three", src: "static/image/button3_3.png", button: "static/image/3.png", backgroundcolor: "#21bf73" },
 ]
@@ -23,10 +23,9 @@ export default function DashBoardMenu({ flag }) {
             <div key={key}>
               <div style={{ display: "inline-flex" }}>
                 <div className="hoveredParent"><a href={item.href}><img alt="prop" src={item.button} /></a>
-                  <div style={{ backgroundColor: item.backgroundcolor }} className="hovered">
+                  <div style={{ backgroundColor: item.backgroundcolor, fontWeight: "bolder" }} className="hovered">
                     <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
+                    <label >בנתניה{`>>`}</label><br />
                     <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
                   </div>
                 </div>
