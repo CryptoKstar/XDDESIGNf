@@ -1,8 +1,6 @@
 import { Navigate, useRoutes } from 'react-router-dom';
 import DashboardLayout from './layouts/dashboard';
 import DashboardApp from './pages/DashboardApp';
-// import Products from './pages/Products';
-// import Blog from './pages/Blog';
 import One from './pages/One';
 import Two from './pages/Two';
 import Three from './pages/Three';
@@ -10,8 +8,6 @@ import Four from './pages/Four';
 import Five from './pages/Five';
 import Six from './pages/Six';
 import Seven from './pages/Seven';
-
-// ----------------------------------------------------------------------
 
 export default function Router() {
   return useRoutes([
