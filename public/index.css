@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'COLBO';
+  src: url("static/Colbo/COLBO-LightExtended.otf") format("opentype");
+}
+*,body, html{
+  font-family : "COLBO!important"
+}
 .input_style {
     width: 100%;
     height: 40px;
@@ -5,14 +12,31 @@
     text-align: right;
     border: none;
     padding-right: 20%;
-}
+    font-family : "COLBO"
+  }
 .input_label {
     position: relative;
     color: red;
     float: right;
     right: 5%;
     top:50%;
+    font-family : "COLBO"
+  }
+p{
+  font-family : "COLBO"
+
 }
+  label{
+    font-family : "COLBO"
+
+  }
+  button{
+
+    font-family : "COLBO"
+  }
+  p{
+    font-family : "COLBO"
+  }
 video{
   object-fit: cover;
 }
@@ -71,6 +95,7 @@ video{
 .hoveredParent1{
   overflow: hidden;
   position : relative;
+  width: 165px;
   border-top-left-radius : 15px; 
 }
 .input_div{

@@ -1,6 +1,6 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-
+import MenuBar from './MenuBar';
 export default function One() {
 
   const navigate = useNavigate();
@@ -23,27 +23,27 @@ export default function One() {
             {/* <img alt="prop" src="static/image/Group 121.png"></img> */}
             <hr style={{ borderColor: "#3ab6c9" }}></hr>
             <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-              <Typography style={{ fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#3ab6c9" }}>תנאי מימון 20/80 + פטור ממדד לשנה + פטור משכ"ט עו"ד + הטבה בשינויי דיירים!</Typography>
+              <p style={{ fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#3ab6c9" }}>תנאי מימון 20/80 + פטור ממדד לשנה + פטור משכ"ט עו"ד + הטבה בשינויי דיירים!</p>
             </Grid>
             <hr style={{ borderColor: "#3ab6c9" }}></hr>
           </Grid>
           <Grid justifyContent="center" style={{ display: "grid" }} item xs={12} marginTop={2}>
-            <Typography style={{ color: "white", fontSize: "25px", fontWeight: "bolder" }}>לצאת מהעיר, ולהישאר בה - רוטשטיין באיינשטיין</Typography>
+            <p style={{ color: "white", fontSize: "25px", fontWeight: "bolder" }}>לצאת מהעיר, ולהישאר בה - רוטשטיין באיינשטיין</p>
           </Grid>
           <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-            <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl" }}>במיקום מושלם ושקט בנתניה צפון, בין הנופים הפתוחים של מושב אביחיל המבוקש ופארק איינשטיין רחב הידיים, קם פרויקט רוטשטיין באיינשטיין. שני מגדלי פרימיום עם מפרט עשיר ואיכותי המציעים דירות מעוצבות ומתוכננות בקפידה, מועדון דיירים, גינה מטופחת, לובי מפואר ו – 3 מעליות בכל בניין.  </Typography>
+            <p style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl" }}>במיקום מושלם ושקט בנתניה צפון, בין הנופים הפתוחים של מושב אביחיל המבוקש ופארק איינשטיין רחב הידיים, קם פרויקט רוטשטיין באיינשטיין. שני מגדלי פרימיום עם מפרט עשיר ואיכותי המציעים דירות מעוצבות ומתוכננות בקפידה, מועדון דיירים, גינה מטופחת, לובי מפואר ו – 3 מעליות בכל בניין.  </p>
           </Grid>
           <Grid justifyContent="center" style={{ display: "grid" }} item xs={12}>
-            <Typography style={{ color: "white", fontSize: "25px", fontWeight: "bolder", direction: "rtl" }}>אל תיקחו את הזמן, קחו החלטה. מס’ הדירות מוגבל! </Typography>
+            <p style={{ color: "white", fontSize: "25px", fontWeight: "bolder", direction: "rtl" }}>אל תיקחו את הזמן, קחו החלטה. מס’ הדירות מוגבל! </p>
           </Grid>
           <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-            <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl" }}>3,4,5 חד׳ החל מ- </Typography>
+            <p style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl" }}>3,4,5 חד׳ החל מ- </p>
           </Grid>
           <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-            <Typography style={{ fontSize: "40px", fontWeight: "bolder", width: "80%", paddingTop: "0px", textAlign: "center", color: "#3ab6c9", direction: "rtl" }}>₪1,870,000</Typography>
+            <p style={{ fontSize: "40px", fontWeight: "bolder", width: "80%", paddingTop: "0px", textAlign: "center", color: "#3ab6c9", direction: "rtl" }}>₪1,870,000</p>
           </Grid>
           <Grid justifyContent="center" style={{ padding: "0% 10%" }} item xs={12}>
-            <Typography style={{ textAlign: "right", color: "white" }}>רוצה לשמוע עוד?מלא פרטים ונחזור אלייך בהקדם</Typography>
+            <p style={{ textAlign: "right", color: "white" }}>רוצה לשמוע עוד?מלא פרטים ונחזור אלייך בהקדם</p>
 
             <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
               <div className="input_div">
@@ -78,102 +78,12 @@ export default function One() {
                 <img alt="prop" src="static/image/one_root.png"></img>
               </Stack>
             </Stack>
-            <Typography style={{ justifyContent: "center", marginTop: "5%", paddingBottom: "1%", display: "flex", color: "white", direction: "rtl" }}>ההטבות לחוזים שיחתמו עד ה- 31.12.21 בלבד</Typography>
+            <p style={{ justifyContent: "center", marginTop: "5%", paddingBottom: "1%", display: "flex", color: "white", direction: "rtl" }}>ההטבות לחוזים שיחתמו עד ה- 31.12.21 בלבד</p>
           </Grid>
         </Grid>
         <Grid item xs={6} style={{ display: "flex", justifyContent: "right", backgroundSize: "cover" }} className="background">
           <Stack paddingTop={2} spacing={2} style={{ justifyContent: "center" }}>
-            <div>
-              <div style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered">
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/one"><img alt="prop" src="static/image/button1_1.png" ></img></a>
-              </div>
-            </div>
-            <div>
-              <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered" style={{ backgroundColor: "#d1313d" }}>
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/two"><img alt="prop" src="static/image/button2_2.png"></img></a>
-              </div>
-            </div>
-            <div>
-              <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered" style={{ backgroundColor: "#21bf73" }}>
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/three"><img alt="prop" src="static/image/button3_3.png"></img></a>
-              </div>
-            </div>
-            <div>
-              <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered" style={{ backgroundColor: "#cb0671" }}>
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/four"><img alt="prop" src="static/image/button4_4.png"></img></a>
-              </div>
-            </div>
-            <div>
-              <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered" style={{ backgroundColor: "#524641" }}>
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/five"><img alt="prop" src="static/image/button5_5.png"></img></a>
-              </div>
-            </div>
-            <div>
-              <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered" style={{ backgroundColor: "#fcb038" }}>
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/six"><img alt="prop" src="static/image/button7_7.png"></img></a>
-              </div>
-            </div>
-            <div>
-              <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered" style={{ backgroundColor: "#fc5e00" }}>
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/seven"><img alt="prop" src="static/image/button6_6.png"></img></a>
-              </div>
-            </div>
+            <MenuBar flag={0} />
           </Stack>
         </Grid>
       </Grid>

@@ -1,5 +1,6 @@
-import { Box, Grid, Stack, Typography } from '@mui/material';
+import { Box, Grid, Stack } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+import MenuBar from './MenuBar';
 
 export default function One() {
 
@@ -23,27 +24,27 @@ export default function One() {
             {/* <img alt="prop" src="static/image/Group 121.png"></img> */}
             <hr style={{ borderColor: "#21bf73" }}></hr>
             <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-              <Typography style={{ fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#21bf73" }}>תנאי מימון 20/80 + פטור מהמדד לשנה + פטור משכ”ט עו”ד</Typography>
+              <p style={{ fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl", fontWeight: "bolder", color: "#21bf73" }}>תנאי מימון 20/80 + פטור מהמדד לשנה + פטור משכ”ט עו”ד</p>
             </Grid>
             <hr style={{ borderColor: "#21bf73" }}></hr>
           </Grid>
           <Grid justifyContent="center" style={{ display: "grid" }} item xs={12}>
-            <Typography style={{ color: "white", fontSize: "25px", fontWeight: "bolder", direction: "rtl" }}>קלאסיקה תל אביבית - כיכר המדינה</Typography>
+            <p style={{ color: "white", fontSize: "25px", fontWeight: "bolder", direction: "rtl" }}>קלאסיקה תל אביבית - כיכר המדינה</p>
           </Grid>
           <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-            <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl" }}>אתם חיים את תל אביב. עובדים בה, מבלים, מתרגשים מהקולינריה, מהתרבות המגוונת, מהמרקם האנושי הייחודי… לא הגיע הזמן שתגורו איפה שהכל קורה? פרויקט שרת 38 בסמוך לכיכר המדינה הוא ההזדמנות שלכם לאיכות חיים נדירה באחד הרחובות השקטים והירוקים בעיר. </Typography>
+            <p style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl" }}>אתם חיים את תל אביב. עובדים בה, מבלים, מתרגשים מהקולינריה, מהתרבות המגוונת, מהמרקם האנושי הייחודי… לא הגיע הזמן שתגורו איפה שהכל קורה? פרויקט שרת 38 בסמוך לכיכר המדינה הוא ההזדמנות שלכם לאיכות חיים נדירה באחד הרחובות השקטים והירוקים בעיר. </p>
           </Grid>
           <Grid justifyContent="center" style={{ display: "grid" }} item xs={12}>
-            <Typography style={{ color: "white", fontSize: "25px", fontWeight: "bolder", direction: "rtl" }}> אל תיקחו את הזמן, קחו החלטה. מס’ הדירות מוגבל! </Typography>
+            <p style={{ color: "white", fontSize: "25px", fontWeight: "bolder", direction: "rtl" }}> אל תיקחו את הזמן, קחו החלטה. מס’ הדירות מוגבל! </p>
           </Grid>
           <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-            <Typography style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl" }}>דירת גן 3 חד' החל מ-</Typography>
+            <p style={{ color: "#c8c8c8", fontSize: "25px", width: "80%", padding: "1% 10%", textAlign: "center", direction: "rtl" }}>דירת גן 3 חד' החל מ-</p>
           </Grid>
           <Grid justifyContent="center" style={{ display: "flex" }} item xs={12}>
-            <Typography style={{ fontSize: "40px", fontWeight: "bolder", width: "80%", paddingTop: "0px", textAlign: "center", color: "#21bf73", direction: "rtl" }}>₪5,965,000</Typography>
+            <p style={{ fontSize: "40px", fontWeight: "bolder", width: "80%", paddingTop: "0px", textAlign: "center", color: "#21bf73", direction: "rtl" }}>₪5,965,000</p>
           </Grid>
           <Grid justifyContent="center" style={{ padding: "0% 10%" }} item xs={12}>
-            <Typography style={{ textAlign: "right", color: "white" }}>רוצה לשמוע עוד?מלא פרטים ונחזור אלייך בהקדם</Typography>
+            <p style={{ textAlign: "right", color: "white" }}>רוצה לשמוע עוד?מלא פרטים ונחזור אלייך בהקדם</p>
 
             <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
               <div className="input_div">
@@ -79,102 +80,12 @@ export default function One() {
                 <img alt="prop" src="static/image/three-3.png"></img>
               </Stack>
             </Stack>
-            <Typography style={{ justifyContent: "center", marginTop: "5%", paddingBottom: "1%", display: "flex", color: "white" }}>!ההטבות לחוזים שיחתמו עד ה- 31.12.21 בלבד</Typography>
+            <p style={{ justifyContent: "center", marginTop: "5%", paddingBottom: "1%", display: "flex", color: "white" }}>!ההטבות לחוזים שיחתמו עד ה- 31.12.21 בלבד</p>
           </Grid>
         </Grid>
         <Grid item xs={6} style={{ display: "flex", justifyContent: "right", backgroundSize: "cover" }} className="background3">
           <Stack paddingTop={2} spacing={2} style={{ justifyContent: "center" }}>
-            <div>
-              <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered">
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/one"><img alt="prop" src="static/image/button1_1.png" ></img></a>
-              </div>
-            </div>
-            <div>
-              <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered" style={{ backgroundColor: "#d1313d" }}>
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/two"><img alt="prop" src="static/image/button2_2.png"></img></a>
-              </div>
-            </div>
-            <div>
-              <div style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered" style={{ backgroundColor: "#21bf73" }}>
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/three"><img alt="prop" src="static/image/button3_3.png"></img></a>
-              </div>
-            </div>
-            <div>
-              <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered" style={{ backgroundColor: "#cb0671" }}>
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/four"><img alt="prop" src="static/image/button4_4.png"></img></a>
-              </div>
-            </div>
-            <div>
-              <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered" style={{ backgroundColor: "#524641" }}>
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/five"><img alt="prop" src="static/image/button5_5.png"></img></a>
-              </div>
-            </div>
-            <div>
-              <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered" style={{ backgroundColor: "#fcb038" }}>
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/six"><img alt="prop" src="static/image/button7_7.png"></img></a>
-              </div>
-            </div>
-            <div>
-              <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                  <div className="hovered" style={{ backgroundColor: "#fc5e00" }}>
-                    <label>להטבות</label><br />
-                    <label>{`<<`}</label>
-                    <label >בנתניה</label><br />
-                    <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                  </div>
-                </div>
-                <a href="/seven"><img alt="prop" src="static/image/button6_6.png"></img></a>
-              </div>
-            </div>
+            <MenuBar flag={2} />
           </Stack>
         </Grid>
       </Grid>
