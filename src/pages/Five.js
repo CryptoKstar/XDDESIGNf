@@ -11,11 +11,11 @@ export default function One() {
   }
 
   return (
-    <Box sx={{ flexGrow: 1, width: "100%", minHeight: "auto" }}>
-      <ReactPlayer style={{ position: "fixed", zIndex: "-10", left: "49%", height: "115vh", overflow: "hidden" }} url="/static/video/3.mp4" playing loop muted width="51%" height="100%" />
+    <Box className="box2">
+      <ReactPlayer className="video_player" url="/static/video/3.mp4" playing loop muted width="51%" height="100%" />
       <Grid container spacing={2} style={{ height: "100%" }}>
         <Grid item xs={6} style={{ backgroundColor: "#232323" }}>
-          <button style={{ width: "100px", height: "100px", backgroundColor: "#ff1650", border: "none", color: "white", fontSize: "25px" }} onClick={(e) => main()}>
+          <button className="main_button" onClick={(e) => main()}>
             <label>הבית חזור</label>
             <label>לדף</label>
           </button>

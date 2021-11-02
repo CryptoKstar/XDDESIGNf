@@ -9,12 +9,12 @@ export default function One() {
   }
 
   return (
-    <Box sx={{ flexGrow: 1, width: "100%", minHeight: "auto", backgroundColor: "#232323" }}>
+    <Box className="box1">
       <Grid container spacing={2} style={{ height: "100%" }}>
         <Grid item xs={6} style={{ backgroundColor: "#232323" }}>
-          <button style={{ width: "100px", height: "100px", backgroundColor: "#ff1650", border: "none", color: "white", fontSize: "25px", direction: "rtl" }} onClick={(e) => main()}>
-            <label>לדף</label>
+        <button className = "main_button" onClick={(e) => main()}>
             <label>הבית חזור</label>
+            <label>לדף</label>
           </button>
           <Grid justifyContent="center" style={{ display: "grid" }} item xs={12}>
             <img alt="prop" src="static/image/Group 122.png" ></img>

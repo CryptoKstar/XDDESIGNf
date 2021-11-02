@@ -5,8 +5,8 @@ const buttons = [
   { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/three", src: "static/image/button3_3.png", backgroundcolor: "#21bf73" },
   { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/four", src: "static/image/button4_4.png", backgroundcolor: "#cb0671" },
   { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/five", src: "static/image/button5_5.png", backgroundcolor: "#524641" },
-  { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/six", src: "static/image/button6_6.png", backgroundcolor: "#fcb038" },
-  { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/seven", src: "static/image/button7_7.png", backgroundcolor: "#fc5e00" },
+  { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/six", src: "static/image/button7_7.png", backgroundcolor: "#fcb038" },
+  { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/seven", src: "static/image/button6_6.png", backgroundcolor: "#fc5e00" },
 ]
 export default function MenuBar({ flag }) {
   return (
@@ -23,7 +23,7 @@ export default function MenuBar({ flag }) {
                         <label>להטבות</label><br />
                         <label>{`<<`}</label>
                         <label >בנתניה</label><br />
-                        <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
+                        <label style={{ fontSize: "13px" }}>לצאת מהעיר, ול  הישאר בה</label>
                       </div>
                     </a>
                   </div>

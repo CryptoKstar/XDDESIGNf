@@ -10,10 +10,10 @@ export default function One() {
   }
 
   return (
-    <Box sx={{ flexGrow: 1, width: "100%", minHeight: "auto", backgroundColor: "#232323" }}>
+    <Box className="box1">
       <Grid container spacing={2} style={{ height: "100%" }}>
         <Grid item xs={6} style={{ backgroundColor: "#232323" }}>
-          <button style={{ width: "100px", height: "100px", backgroundColor: "#ff1650", border: "none", color: "white", fontSize: "25px" }} onClick={(e) => main()}>
+          <button className="main_button" onClick={(e) => main()}>
             <label>הבית חזור</label>
             <label>לדף</label>
           </button>

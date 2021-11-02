@@ -157,3 +157,33 @@ video{
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
   }
+
+  .box1{
+    flex-grow: 1;
+    width: 100%;
+    min-height: auto;
+    background-color: #232323;
+  }
+  .box2{
+    flex-grow: 1;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .main_button {
+    width: 100px;
+    height: 100px;
+    background-color: #ff1650;
+    border: none;
+    color: white;
+    font-size: 25px;
+  }
+  .video_player {
+    position: fixed;
+    z-index: -10;
+    left: 49%;
+    /* height: 115vh; */
+    overflow: hidden;
+    width: 51%;
+    height: 100%;
+  }
