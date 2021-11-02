@@ -1,5 +1,3 @@
-import { Box, Grid, Stack, Typography } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
 
 const buttons = [
   { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/one", src: "static/image/button1_1.png", backgroundcolor: "#3ab6c9" },
@@ -11,12 +9,6 @@ const buttons = [
   { label: "להטבות", label1: "`<<`", label2: "בנתניה", href: "/seven", src: "static/image/button7_7.png", backgroundcolor: "#fc5e00" },
 ]
 export default function MenuBar({ flag }) {
-
-  const navigate = useNavigate();
-  const main = (params) => {
-    navigate('/app', { replace: true });
-  }
-
   return (
     <>
       {
@@ -25,13 +17,15 @@ export default function MenuBar({ flag }) {
             return (
               <div key={key}>
                 <div style={{ display: "inline-flex", float: "right", color: "white" }}>
-                  <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                    <div className="hovered" style={{ backgroundColor: item.backgroundcolor }} >
-                      <label>להטבות</label><br />
-                      <label>{`<<`}</label>
-                      <label >בנתניה</label><br />
-                      <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                    </div>
+                  <div className="hoveredParent1">
+                    <a href="/one">
+                      <div className="hovered" style={{ backgroundColor: item.backgroundcolor, color: "white" }} >
+                        <label>להטבות</label><br />
+                        <label>{`<<`}</label>
+                        <label >בנתניה</label><br />
+                        <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
+                      </div>
+                    </a>
                   </div>
                   <a href={item.href}><img alt="prop" src={item.src}></img></a>
                 </div>
@@ -42,13 +36,15 @@ export default function MenuBar({ flag }) {
             return (
               <div key={key}>
                 <div className="buttonhoverd" style={{ display: "inline-flex", float: "right", color: "white" }}>
-                  <div className="hoveredParent1"><a href="/one"><img alt="prop" src="static/image/button1.png" /></a>
-                    <div className="hovered" style={{ backgroundColor: item.backgroundcolor }} >
-                      <label>להטבות</label><br />
-                      <label>{`<<`}</label>
-                      <label >בנתניה</label><br />
-                      <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
-                    </div>
+                  <div className="hoveredParent1">
+                    <a href={item.href}>
+                      <div className="hovered" style={{ backgroundColor: item.backgroundcolor, color: "white" }} >
+                        <label>להטבות</label><br />
+                        <label>{`<<`}</label>
+                        <label >בנתניה</label><br />
+                        <label style={{ fontSize: "13px" }}>לצאת מהעיר, ולהישאר בה</label>
+                      </div>
+                    </a>
                   </div>
                   <a href={item.href}><img alt="prop" src={item.src}></img></a>
                 </div>

@@ -1,4 +1,4 @@
-import { Box, Grid, Stack, Typography } from '@mui/material';
+import { Box, Grid, Stack } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import MenuBar from './MenuBar';
 export default function One() {

@@ -70,9 +70,9 @@ video{
     top : 0px;
     left: 0px;
     height: 100%;
-    background-color: #036473;
     padding: 10px;
     direction: rtl;
+    /* width: 165%; */
 }
 .hoveredParent:hover div{
     margin-left:-100%;
