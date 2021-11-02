@@ -1,13 +1,13 @@
 import { Box, Grid, Stack } from '@mui/material';
 import ReactPlayer from 'react-player';
-import { useNavigate } from 'react-router-dom';
 import MenuBar from './MenuBar';
+import { useHistory } from 'react-router-dom';
 
 export default function One() {
 
-  const navigate = useNavigate();
+  const history = useHistory();
   const main = (params) => {
-    navigate('/app', { replace: true });
+    history.push('/app');
   }
 
   return (

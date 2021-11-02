@@ -1,14 +1,14 @@
 import { Box, Grid, Stack } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import MenuBar from './MenuBar';
 
 export default function One() {
-
-  const navigate = useNavigate();
+  const history = useHistory();
   const main = (params) => {
-    navigate('/app', { replace: true });
-  }
+    // history('/app');
+    history.push('/app');
 
+  }
   return (
     <Box className="box1">
       <Grid container spacing={2} style={{ height: "100%" }}>

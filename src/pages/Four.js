@@ -1,18 +1,19 @@
 import { Box, Grid, Stack } from '@mui/material';
 import ReactPlayer from 'react-player';
-import { useNavigate } from 'react-router-dom';
 import MenuBar from './MenuBar';
+import { useHistory } from 'react-router-dom';
 
 export default function One() {
 
-  const navigate = useNavigate();
+  const history = useHistory();
   const main = (params) => {
-    navigate('/app', { replace: true });
-  }
+    // history('/app');
+    history.push('/app');
 
+  }
   return (
     <Box className="box2">
-      <ReactPlayer className="video_player" url="/static/video/1.mp4" playing loop muted width="51%" height="100%" />
+      <ReactPlayer className="video_player" url="/static/video/1.mp4" playing loop muted />
 
       <Grid container spacing={2} style={{ height: "100%" }}>
         <Grid item xs={6} style={{ backgroundColor: "#232323" }}>
