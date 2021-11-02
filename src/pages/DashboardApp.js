@@ -18,7 +18,7 @@ export default function DashboardApp() {
             <Grid item xs={7} style={{ display: "grid", justifyContent: "right", marginTop: "-2%", paddingRight: "6%", fontFamily: "COLBO" }}>
               <div className="main_click_1">
                 <img alt="prop" src="static/image/title1.png"></img>
-                <img className="mclock" alt="prop" src="static/image/clock.gif"></img>
+                <img className="mclock_1" alt="prop" src="static/image/clock.gif"></img>
               </div>
               {/* <p style={{ direction: "rtl", fontSize: "3.4vw" }}>רוטשן</p> */}
               <p style={{ direction: "rtl", fontSize: "3.4vw", height: "3.4vw", marginTop: "-1vw" }}>הטבות סופשנה<span style={{ fontSize: "3.4vw", fontFamily: "COLBO", color: "#ff1650" }}>חוזרות ביג טיים!</span> </p>

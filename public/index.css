@@ -103,7 +103,7 @@ video{
     overflow: hidden;
     position : relative;
     height: 5vw;
-    width: 9vw;
+    width: 8.4vw;
     border-top-left-radius : 0.7vw;
     font-size: 0.7vw;
 }
@@ -226,12 +226,17 @@ video{
   }
 
   .mclock{
+    top: -1vw;
+    left: -0.4vw;
+    position: absolute;
+    height: 5vw;
+  }
+  .mclock_1{
     top: -4px;
     left: 8px;
     position: absolute;
     height: 5vw;
   }
-
   .grid_title{
     justify-content: center;
     display: grid;
