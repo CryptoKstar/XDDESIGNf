@@ -42,9 +42,6 @@
     "web-vitals": "^2.1.0",
     "yup": "^0.32.9"
   },
-  "devDependencies": {
-    "@babel/core": "^7.15.5"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
