@@ -1,6 +1,5 @@
 import { Box, Grid, Stack } from '@mui/material';
 import ReactPlayer from 'react-player';
-// import { styled } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
 import MenuBar from './MenuBar';
 

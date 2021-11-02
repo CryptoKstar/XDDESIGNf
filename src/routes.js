@@ -1,5 +1,5 @@
 import { Navigate, useRoutes } from 'react-router-dom';
-import DashboardLayout from './layouts/dashboard';
+import DashboardLayout from './pages/dashboard';
 import DashboardApp from './pages/DashboardApp';
 import One from './pages/One';
 import Two from './pages/Two';
